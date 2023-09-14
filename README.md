@@ -1,6 +1,6 @@
 # Meals_app_codingninjas.github.io
 
-Hosted Link : 
+Hosted Link : https://khushbooaswani.github.io/Meals_app_codingninjas.github.io/
 
 
 About the project :
