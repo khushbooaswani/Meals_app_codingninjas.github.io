@@ -1,0 +1,180 @@
+/* code by Khushboo Aswani */
+body {
+    width: 100%;
+    background-image: url(back1.jpg);
+    background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+    
+}
+
+/* Header Navigation Bar Section */
+
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: linear-gradient(-180deg, #cb4b4b, #f1bfbf);
+    
+}
+
+.app_name {
+    font-size: 2rem;
+    margin-left: -300%;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #171515;
+    text-shadow: 2px 0px 6px #f7fafa;
+}
+
+/* Application's Logo */
+
+#logo {
+    height: 55px;
+    width: 50px;
+    margin: 0 20px 0 10px;
+    border-radius: 100%;
+    animation-timing-function: ease-in-out;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+
+/* Inside Body Header Section */
+
+#heading {
+    margin-top: 130px;
+    font-family:cursive;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 2.4rem;
+    color: rgb(205, 58, 58);
+    letter-spacing: 0.1rem;
+}
+
+/* Search Bar Section */
+
+#search-bar {
+    max-width: 600px;
+    color: brown;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    color:brown;
+    font-size: 2rem;
+}
+
+#heading-text {
+    font-family:cursive;
+    font-weight: 400;
+    font-size: 2.1rem;
+    color: rgb(205, 58, 58);
+    letter-spacing: 0.3rem;
+}
+
+
+/* Meal's Card Section */
+
+#card {
+    background-image: linear-gradient(-180deg, #cb4b4b, #f1bfbf);
+    padding: 10px;
+    color: white;
+    box-shadow: rgb(158 158 158) 0px 1px 10px;
+}
+
+#card h5 {
+    color: rgb(62, 3, 86);
+    font-family:sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+#card-title {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* Meal's Details Section */
+
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background:linear-gradient(-180deg, #cb4b4b, #f1bfbf);
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: aliceblue;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* The Favourites offcanvus Section */
+
+#favourites-body {
+    background-image: linear-gradient(-180deg, #cb4b4b, #f1bfbf);
+}
+
+#fav {
+    margin: 0 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .app_name {
+        font-size: 2rem;
+        margin-left: 50%;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: #171515;
+        text-shadow: 2px 0px 6px #f7fafa;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .app_name {
+    font-size: 2rem;
+    margin-left: 1%;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #171515;
+    text-shadow: 2px 0px 6px #f7fafa;
+    }
+}
