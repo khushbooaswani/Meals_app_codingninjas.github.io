@@ -28,3 +28,5 @@ Installing:
 1. Clone or download the repository to your local machine
 2. Open the project in your code editor
 3. Open the index.html file in your web browser to run the app
+
+Video link to understand the project: https://www.youtube.com/watch?v=kDvUfZh940U
