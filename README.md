@@ -19,7 +19,7 @@ Vanilla Javascript
 
 Prerequisites:
 
-* A web browser (e.g. Google Chrome, Firefox, Safari)
+* A web browser (e.g. Google Chrome, Microsoft Edge)
 * An internet connection
 * A code editor (e.g. VS Code, Atom)
 
